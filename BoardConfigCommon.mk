@@ -65,6 +65,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
 # FM
+
 BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true
 
@@ -132,7 +133,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /mnt/vendor/persist:/persist
 
 # Platform
-TARGET_BOARD_PLATFORM := sdm660
 TARGET_USES_UM_4_19 := true
 OVERRIDE_QCOM_HARDWARE_VARIANT := sdm660
 
